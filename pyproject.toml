@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cli-tool"
+version = "0.1.0"
+description = "ACDP 젠킨스 사용시 CLI 아규먼트 해석 함수를 만들기 위한 도구"
+authors = ["Giwan Lim <gw.lim@ascentnet.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "3.8.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^20.8b1"
+flake8 = "^3.9.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
